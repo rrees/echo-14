@@ -12,7 +12,7 @@ config = {
     // Configure your URL and mail settings here
     production: {
         url: 'https://echo-14.herokuapp.com',
-	filestorage: false,
+        filestorage: false,
         mail: {},
         database: {
             client: 'postgres',
