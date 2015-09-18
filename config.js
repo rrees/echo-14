@@ -13,16 +13,15 @@ config = {
     production: {
         url: 'https://echo-14.herokuapp.com',
         filestorage: false,
-        forceAdminSSL: true,
+        forceAdminSSL: true
         mail: {},
         database: {
             client: 'postgres',
             connection: {
-                host: process.env.POSTGRES_HOST,
-                user: process.env.POSTGRES_USER,
-                password: process.env.POSGRES_PASSWORD,
-                database: process.env.POSTGRES_DATABASE,
-                port: '5432'
+                host: process.env.CLEARDB_HOST,
+                user: process.env.CLEARDB_USER,
+                password: process.env.CLEARDB_PASSWORD,
+                database: process.env.CLEARDB_DATABASE
             },
             debug: false
         },
