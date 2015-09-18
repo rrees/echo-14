@@ -13,6 +13,7 @@ config = {
     production: {
         url: 'https://echo-14.herokuapp.com',
         filestorage: false,
+        forceAdminSSL: true,
         mail: {},
         database: {
             client: 'postgres',
