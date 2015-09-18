@@ -16,7 +16,7 @@ config = {
         forceAdminSSL: true,
         mail: {},
         database: {
-            client: 'postgres',
+            client: 'mysql',
             connection: {
                 host: process.env.CLEARDB_HOST,
                 user: process.env.CLEARDB_USER,
